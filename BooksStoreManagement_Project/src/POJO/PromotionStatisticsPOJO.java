@@ -4,10 +4,6 @@
  */
 package POJO;
 
-/**
- *
- * @author bachl
- */
 public class PromotionStatisticsPOJO {
     String id;
     String name;

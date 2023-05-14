@@ -15,5 +15,5 @@
 - [ ] 48 - Nhung - Enable/show a promotion.
 - [ ] 49 - Nhung - Create a book import sheet, including the import date, in-charge employee, the total cost of the sheet, and a list of import books with quantity, import prices.
 - [ ] 50 - Nhung - View a list of import sheets.
-- [x] 51 - Nhung - Create an order to sell books to a customer. A customer can provide their identity to be a member of the bookstore. A discount of 5% on every order is applied to all members. If a customer does not want to provide their information, the customer's name is Anonymous, and no discount is applied. The sale price is more than 10% of the import price. Apply for a promotion if yes.
-- [x] 52 - Nhung - View a list of orders in a specific duration.
+- [ ] 51 - Nhung - Create an order to sell books to a customer. A customer can provide their identity to be a member of the bookstore. A discount of 5% on every order is applied to all members. If a customer does not want to provide their information, the customer's name is Anonymous, and no discount is applied. The sale price is more than 10% of the import price. Apply for a promotion if yes.
+- [ ] 52 - Nhung - View a list of orders in a specific duration.

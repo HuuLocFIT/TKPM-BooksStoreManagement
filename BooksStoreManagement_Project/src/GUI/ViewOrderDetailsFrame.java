@@ -19,10 +19,6 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author bachl
- */
 public class ViewOrderDetailsFrame extends javax.swing.JFrame {
     private ArrayList<OrderDetailPOJO> listBooksInOrder;
     private final String idOrder;

@@ -21,10 +21,6 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- *
- * @author bachl
- */
 public class ViewOrdersFrame extends javax.swing.JFrame {
     private String typeChooser;
     private int totalCost;

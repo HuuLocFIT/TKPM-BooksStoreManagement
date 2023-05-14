@@ -4,10 +4,6 @@
  */
 package POJO;
 
-/**
- *
- * @author bachl
- */
 public class OrdersPOJO {
     String id;
     String createAt;

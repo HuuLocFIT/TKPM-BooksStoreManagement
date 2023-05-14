@@ -4,10 +4,6 @@
  */
 package POJO;
 
-/**
- *
- * @author bachl
- */
 public class OrderDetailPOJO {
     String idOrder;
     String idBook;

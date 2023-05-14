@@ -14,10 +14,6 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author bachl
- */
 public class StatisticsDAO {
     public List<StatisticsPOJO> getGroupedByBookFromDateToDate(String fromDate, String toDate){
         List<StatisticsPOJO> ans = null;

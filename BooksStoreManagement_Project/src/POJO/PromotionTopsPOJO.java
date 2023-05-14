@@ -4,10 +4,6 @@
  */
 package POJO;
 
-/**
- *
- * @author bachl
- */
 public class PromotionTopsPOJO {
     String idPromotion;
     String id;

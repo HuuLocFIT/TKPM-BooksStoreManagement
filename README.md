@@ -6,13 +6,13 @@
 - [x] 15 - ? - View the statistics of a promotion: total number of orders, the total number of customers, total revenue, top 10 orders, top 10 books, and top 10 customers.
 - [ ] 40 - Nhung - Enable/show a book.
 - [ ] 41 - Nhung - View a list of out-of-stock books.
-- [ ] 42 - Nhung - Create a promotion campaign with the following information: name, description, from date, to date, list of books applied for the promotion, percent discount applied, the maximum number of orders that can apply for the promotion, can apply to a customer once or not, applied to anonymous customers or not.
-- [ ] 43 - Nhung - View a list of promotions: past promotions, current promotions, and upcoming promotions. Search or sort on the list.
-- [ ] 44 - Nhung - Update promotion information.
-- [ ] 45 - Nhung - Extend the end date of a promotion.
-- [ ] 46 - Nhung - Close a promotion.
-- [ ] 47 - Nhung - Disable/hide a promotion.
-- [ ] 48 - Nhung - Enable/show a promotion.
+- [x] 42 - Nhung - Create a promotion campaign with the following information: name, description, from date, to date, list of books applied for the promotion, percent discount applied, the maximum number of orders that can apply for the promotion, can apply to a customer once or not, applied to anonymous customers or not.
+- [x] 43 - Nhung - View a list of promotions: past promotions, current promotions, and upcoming promotions. Search or sort on the list.
+- [x] 44 - Nhung - Update promotion information.
+- [x] 45 - Nhung - Extend the end date of a promotion.
+- [x] 46 - Nhung - Close a promotion.
+- [x] 47 - Nhung - Disable/hide a promotion.
+- [x] 48 - Nhung - Enable/show a promotion.
 - [ ] 49 - Nhung - Create a book import sheet, including the import date, in-charge employee, the total cost of the sheet, and a list of import books with quantity, import prices.
 - [ ] 50 - Nhung - View a list of import sheets.
 - [ ] 51 - Nhung - Create an order to sell books to a customer. A customer can provide their identity to be a member of the bookstore. A discount of 5% on every order is applied to all members. If a customer does not want to provide their information, the customer's name is Anonymous, and no discount is applied. The sale price is more than 10% of the import price. Apply for a promotion if yes.

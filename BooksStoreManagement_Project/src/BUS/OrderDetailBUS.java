@@ -9,10 +9,6 @@ import POJO.OrderDetailPOJO;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author bachl
- */
 public class OrderDetailBUS {
     public boolean addOrderDetail(List<OrderDetailPOJO> orderDetailList) {
         OrderDetailDAO da = new OrderDetailDAO();

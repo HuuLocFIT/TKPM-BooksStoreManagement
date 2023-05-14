@@ -8,10 +8,6 @@ import DAO.OrdersDAO;
 import POJO.OrdersPOJO;
 import java.util.List;
 
-/**
- *
- * @author bachl
- */
 public class OrdersBUS {
     public String getMaxIDOrder() {
         OrdersDAO da = new OrdersDAO();

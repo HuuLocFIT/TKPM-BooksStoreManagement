@@ -9,10 +9,6 @@ import POJO.PromotionStatisticsPOJO;
 import POJO.PromotionTopsPOJO;
 import java.util.List;
 
-/**
- *
- * @author bachl
- */
 public class PromotionStatisticsBUS {
     public List<PromotionStatisticsPOJO> getPromotion(){
         PromotionStatisticsDAO da = new PromotionStatisticsDAO();

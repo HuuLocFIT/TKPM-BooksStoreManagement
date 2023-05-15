@@ -8,10 +8,6 @@ import DAO.StatisticsDAO;
 import POJO.StatisticsPOJO;
 import java.util.List;
 
-/**
- *
- * @author bachl
- */
 public class StatisticsBUS {
     public List<StatisticsPOJO> getGroupedByBookFromDateToDate(String fromDate, String toDate){
         StatisticsDAO da = new StatisticsDAO();

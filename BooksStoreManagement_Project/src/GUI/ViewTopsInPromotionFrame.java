@@ -10,10 +10,6 @@ import POJO.PromotionTopsPOJO;
 import java.util.List;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author bachl
- */
 public class ViewTopsInPromotionFrame extends javax.swing.JFrame {
 
     private int totalRevenue;

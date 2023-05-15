@@ -4,24 +4,14 @@
  */
 package DAO;
 
-import java.lang.reflect.AnnotatedArrayType;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import POJO.BookPOJO;
+import POJO.CategoryPOJO;
+
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.util.Date;
-
-import POJO.AuthorPOJO;
-import POJO.BookPOJO;
-import POJO.CategoryPOJO;
-import POJO.PromotionPOJO;
-
-import java.sql.PreparedStatement;
-import java.sql.SQLIntegrityConstraintViolationException;
 
 public class CategoryDAO {
     static public ArrayList<CategoryPOJO> getAll(){

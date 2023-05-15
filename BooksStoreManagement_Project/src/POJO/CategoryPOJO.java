@@ -4,8 +4,6 @@
  */
 package POJO;
 
-import java.util.Date;
-
 public class CategoryPOJO {
     String id;
     String name;

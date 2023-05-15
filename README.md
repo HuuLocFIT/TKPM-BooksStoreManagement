@@ -4,6 +4,12 @@
 - [x] 13 - ? -View revenue statistics grouped by the customer in a range of time: a week, a month, or from date to date.
 - [x] 14 - Nhung - View revenue statistics grouped by the employee in a range of time: a week, a month, or from date to date.
 - [x] 15 - ? - View the statistics of a promotion: total number of orders, the total number of customers, total revenue, top 10 orders, top 10 books, and top 10 customers.
+- [x] 20 View a list of book categories. Search or sort on the list.
+- [x] 21 Add a new book category.
+- [x] 22 Update the information of a book category.
+- [x] 23 Disable/hide a book category.
+- [x] 24 Enable/show a book category.
+
 - [ ] 40 - Nhung - Enable/show a book.
 - [ ] 41 - Nhung - View a list of out-of-stock books.
 - [x] 42 - Nhung - Create a promotion campaign with the following information: name, description, from date, to date, list of books applied for the promotion, percent discount applied, the maximum number of orders that can apply for the promotion, can apply to a customer once or not, applied to anonymous customers or not.

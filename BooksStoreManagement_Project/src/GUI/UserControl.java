@@ -35,13 +35,13 @@ public class UserControl extends JFrame {
 	String username;
 	private final JPanel contentPane;
 	private final JPanel topPane = new JPanel();
-//	BookManagement bookControlGUI;
-//	PromotionManagement promotionControlGUI;
-//	importSheet importSheetControlGUI;
-//	AuthorGUI authorControlGUI;
-//	ViewOrdersFrame orderControlGUI;
-//	ViewBookCategoriesFrame bookCategoryControlGUI;
-//	publisherGUI publisherControlGUI;
+	BookManagement bookControlGUI;
+	PromotionManagement promotionControlGUI;
+	//importSheet importSheetControlGUI;
+	AuthorGUI authorControlGUI;
+	ViewOrdersFrame orderControlGUI;
+	ViewBookCategoriesFrame bookCategoryControlGUI;
+	publisherGUI publisherControlGUI;
 
 	/**
 	 * Launch the application.
@@ -187,8 +187,8 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-//				promotionControlGUI = new PromotionManagement(username);
-//				promotionControlGUI.setVisible(true);
+				promotionControlGUI = new PromotionManagement(username);
+				promotionControlGUI.setVisible(true);
 				hideUserControl();
 			}
 
@@ -218,8 +218,8 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-//				authorControlGUI = new AuthorGUI(username);
-//				authorControlGUI.setVisible(true);
+				authorControlGUI = new AuthorGUI(username);
+				authorControlGUI.setVisible(true);
 				hideUserControl();
 			}
 
@@ -233,8 +233,8 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-//				orderControlGUI = new ViewOrdersFrame(username);
-//				orderControlGUI.setVisible(true);
+				orderControlGUI = new ViewOrdersFrame(username);
+				orderControlGUI.setVisible(true);
 				hideUserControl();
 			}
 
@@ -248,8 +248,8 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-//				bookCategoryControlGUI = new ViewBookCategoriesFrame(username);
-//				bookCategoryControlGUI.setVisible(true);
+				bookCategoryControlGUI = new ViewBookCategoriesFrame(username);
+				bookCategoryControlGUI.setVisible(true);
 			}
 
 		});
@@ -262,8 +262,8 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-//				publisherControlGUI = new publisherGUI(username);
-//				publisherControlGUI.setVisible(true);
+				publisherControlGUI = new publisherGUI(username);
+				publisherControlGUI.setVisible(true);
 				hideUserControl();
 			}
 

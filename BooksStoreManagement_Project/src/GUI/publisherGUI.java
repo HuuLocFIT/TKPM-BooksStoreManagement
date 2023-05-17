@@ -1,40 +1,16 @@
 package GUI;
 
-import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.border.EmptyBorder;
-import javax.swing.table.DefaultTableModel;
-import javax.swing.table.TableCellRenderer;
-
-import com.mysql.cj.callback.UsernameCallback;
-
 import BUS.PublisherBUS;
 import POJO.PublisherPOJO;
 
-import javax.swing.JMenuBar;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JSeparator;
-import javax.swing.JButton;
-import javax.swing.SwingConstants;
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.GridLayout;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-import java.awt.FlowLayout;
-import java.awt.Component;
-import javax.swing.Box;
-import javax.swing.JComboBox;
-import javax.swing.JScrollPane;
-import javax.swing.JTable;
+import javax.swing.*;
+import javax.swing.border.EmptyBorder;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableCellRenderer;
+import java.awt.*;
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-import java.awt.event.ActionEvent;
-import javax.swing.JScrollBar;
 
 public class publisherGUI extends JFrame {
 
@@ -287,8 +263,8 @@ public class publisherGUI extends JFrame {
         String[] columnNames = { "ID", "Name", "Address", "Phone", "Disable" };
         listPublisherTable = new JTable() {
             @Override
-            public java.awt.Component prepareRenderer(TableCellRenderer renderer, int row, int col) {
-                java.awt.Component comp = super.prepareRenderer(renderer, row, col);
+            public Component prepareRenderer(TableCellRenderer renderer, int row, int col) {
+                Component comp = super.prepareRenderer(renderer, row, col);
                 Object value = getModel().getValueAt(row, 4);
                 if (value.equals("1")) {
                     comp.setBackground(Color.RED);

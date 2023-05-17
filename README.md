@@ -9,6 +9,11 @@
 - [x] 22 Update the information of a book category.
 - [x] 23 Disable/hide a book category.
 - [x] 24 Enable/show a book category.
+- [x] 25  View a list of book publishers. Search or sort on the list.
+- [x] 26  Add a new book publisher.
+- [x] 27  Update the information of a book publisher.
+- [x] 28  Disable/hide a book publisher.
+- [x] 29  Enable/show a book publisher.
 
 - [ ] 40 - Nhung - Enable/show a book.
 - [ ] 41 - Nhung - View a list of out-of-stock books.

@@ -37,7 +37,7 @@ public class UserControl extends JFrame {
 	private final JPanel topPane = new JPanel();
 	BookManagement bookControlGUI;
 	PromotionManagement promotionControlGUI;
-	//importSheet importSheetControlGUI;
+	importSheet importSheetControlGUI;
 	AuthorGUI authorControlGUI;
 	ViewOrdersFrame orderControlGUI;
 	ViewBookCategoriesFrame bookCategoryControlGUI;
@@ -173,7 +173,7 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-				//bookControlGUI = new BookManagement(username);
+				bookControlGUI = new BookManagement(username);
 				hideUserControl();
 			}
 
@@ -203,8 +203,8 @@ public class UserControl extends JFrame {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-//				importSheetControlGUI = new importSheet(username);
-//				importSheetControlGUI.setVisible(true);
+				importSheetControlGUI = new importSheet(username);
+				importSheetControlGUI.setVisible(true);
 				hideUserControl();
 			}
 

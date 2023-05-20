@@ -14,7 +14,16 @@
 - [x] 27  Update the information of a book publisher.
 - [x] 28  Disable/hide a book publisher.
 - [x] 29  Enable/show a book publisher.
-
+- [x] 30  View list of book authors. Search or sort on the list.
+- [x] 31  Add a new book author.
+- [x] 32  Update the information of a book author.
+- [x] 33  Disable/hide a book author.
+- [x] 34  Enable/show a book author.
+- [x] 35  View a list of books. Search or sort on the list.
+- [x] 36  View a list of hot/new books. Search or sort on the list.
+- [x] 37  Add a new book.
+- [x] 38  Update the information of a book.
+- [x] 39  Disable/hide a book.
 - [ ] 40 - Nhung - Enable/show a book.
 - [ ] 41 - Nhung - View a list of out-of-stock books.
 - [x] 42 - Nhung - Create a promotion campaign with the following information: name, description, from date, to date, list of books applied for the promotion, percent discount applied, the maximum number of orders that can apply for the promotion, can apply to a customer once or not, applied to anonymous customers or not.
